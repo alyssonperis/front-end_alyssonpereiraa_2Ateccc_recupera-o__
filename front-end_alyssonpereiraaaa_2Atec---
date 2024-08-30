@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aa.css">
+    <title>Loja de Roupas</title>
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+    </header>
+    <main>
+        <div class="product-list">
+            <div class="product">
+                <img src=" download.jpeg"alt=camisa vermelha">
+                <h2>camiseta vermelha</h2>
+                <p>Camiseta vermelha</p>
+                <button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product">
+                <img src="camisa.jpeg" width="250px" alt="Produto 2">
+                <h2>Camisa Barcelona</h2>
+                <p>Camisa Barcelona</p>
+                <button onclick="addToCart('Produto 2')">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Loja de Roupas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aa.css">
+    <title>Loja de Roupas</title>
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+    </header>
+    <main>
+        <div class="product-list">
+            <div class="product">
+                <img src="camisa1.webp" width="250px" alt="Produto 1">
+                <h2>camisa flamengo</h2>
+                <p>camisa flamengo</p>
+                <button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product">
+                <img src="aaa.jpeg" alt="Produto 2">
+                <h2>Camisa corinthians</h2>
+                <p>Camisa corinthians</p>
+                <button onclick="addToCart('Produto 2')">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja de Roupas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
